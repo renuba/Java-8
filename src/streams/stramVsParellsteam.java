@@ -6,6 +6,7 @@ import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
 public class stramVsParellsteam {
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int max = 1000000;
