@@ -4,12 +4,7 @@ import java.util.Arrays;
 
 public class coinsLeast {
 
-    public static void main(String[] args)
-    {
-      int[] coins= {1,5,10,25};
-      int value = 78;
-            System.out.println(getcoins(coins,value));
-    }
+
 
     private static int getcoins(int[] coins, int V) {
         int m =coins.length;
@@ -44,5 +39,12 @@ public class coinsLeast {
             return -1;
 
         return table[V];
+    }
+
+    public static void main(String[] args)
+    {
+        int[] coins= {1,5,10,25};
+        int value = 78;
+        System.out.println(getcoins(coins,value));
     }
 }
