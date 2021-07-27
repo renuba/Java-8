@@ -32,6 +32,8 @@ package com.company;
 
             // Check Empty Stack
             return (stack.isEmpty());
+            //Time Complexity: O(n)
+            //Auxiliary Space: O(n) for stack.
         }
 
         // Driver code

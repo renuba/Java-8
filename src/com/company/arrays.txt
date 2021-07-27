@@ -1,0 +1,18 @@
+ n= arr.length;
+
+ by default right rotation
+
+ Collections.rotate(Arrays.asList(arr), n - k);
+
+ Arrays.equals(a1,a2);  o(n), o(1)
+
+ Second solution:   /* To get the starting point of
+                          rotated array */
+                          int mod = k % n;
+
+                          // Prints the rotated array from
+                          // start position
+                          for (int i = 0; i < n; ++i)
+                              System.out.print(arr[(i + mod) % n] + " ");
+
+ ------------------------------------------------------

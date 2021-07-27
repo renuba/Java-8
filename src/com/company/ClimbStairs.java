@@ -28,7 +28,7 @@ public class ClimbStairs {
           }
 
 }
-//    Time complexity : O(n)O(n). Single loop upto nn is required to calculate n^{th}n
+//    Time complexity : O(n). Single loop upto nn is required to calculate n^{th}n
 //        th
 //        fibonacci number.
 //
